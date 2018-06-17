@@ -42,7 +42,8 @@ class App < Sinatra::Base
     else
       @display = "Sorry, please try again"
     end
-    
+    "#{@display}"
+
   end
 
 end
