@@ -19,7 +19,7 @@ class App < Sinatra::Base
     while i < params[:number].to_i do
       @array << @phrase
     end
-    @array
+    "#{@array}"
   end
 
 end
