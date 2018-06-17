@@ -40,7 +40,7 @@ class App < Sinatra::Base
     when "divide"
       @display = @num1 / @num2
     else
-      "Sorry, please try again"
+      @display = "Sorry, please try again"
     end
     
   end
