@@ -15,7 +15,12 @@ class App < Sinatra::Base
   get "/say/:number/:phrase" do
     @array = []
     @phrase = params[:phrase].gsub("%20"," ")
-    "#{@square}"
+    i = 0
+    while i < params[:number].to_i do
+
+    end
+    end
+    @array 
   end
 
 end
